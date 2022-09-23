@@ -1,1 +1,197 @@
-/* Desenvolva seu código aqui... */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    body
+    {
+        background-color: var(--color-primary);
+    }
+    h1
+    {
+    color: var(--color-grey-5);
+    position: absolute;
+    width: 148px;
+    height: 24px;
+    border-radius: 4px;
+    margin: 112px 130px 271px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    h2
+    {
+        color: var(--color-grey-6);
+    }
+
+    .slogan
+    {
+        color: var(--color-grey-6);
+        padding: 199px 33px 0px 33px;
+        text-align: center;
+    }
+
+    p
+    {
+        color: var(--color-primary);
+    }
+
+    .esquerda
+    {
+
+    width: 321px;
+    height: 407px;
+    background: var(--color-grey-3);
+    border-radius: 8px 0px 0px 8px;
+    }
+
+    .direita
+    {
+
+    width: 394px;
+    height: 407px;
+    margin: -407px 0px 0px 320px;
+    border-radius: 4px;
+    }
+
+    main
+    {
+
+    width: 714px;
+    height: 407px;
+    background: var(--color-grey-6);
+    border-radius: 8px;
+    display: flex;
+    margin: 230px 283px 157px 573px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    }
+
+    div
+    {
+    padding: 77px 0px 0px 77px;
+    }
+
+    input
+    {
+    width: 235px;
+    height: 44px;
+    margin: 16px 0px 10px 0px;
+    background-color: var(--color-grey-5);
+    border-radius: 4px;
+
+    }
+
+    .esqueciSenha
+    {
+    width: 140px;
+    height: 25px;
+    margin: 5px 0px 0px 95px;
+    background: var(--color-grey-3);
+    color: var(--color-grey-6);
+    border-radius: 4px;
+    transition: 0.5s;
+    }
+
+    .esqueciSenha:hover
+    {
+    background: var(--color-grey-1);
+    color: var(--color-grey-6);
+    cursor: pointer;
+    transition: 0.5s;
+    }
+
+    .entrar
+    {
+    margin: 45px 0px 0px 0px;
+    width: 235px;
+    height: 40px;
+    background: var(--color-grey-3);
+    color: var(--color-grey-6);
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.25s;
+    }
+    .entrar:hover
+    {
+    border: solid var(--color-primary);
+    cursor: pointer;
+    transition: 0.25s;
+    }
+
+    img
+    {
+    width: 50px;
+    position: absolute;
+    padding: 94px 0px 0px 0px;
+    margin: 0px 0px 0px 600px;
+    }
+
+    .textoModal
+    {
+    text-align: center;
+    }
+
+    .back{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 1;
+        background-color: var(--color-primary);
+        display: none;
+    }
+
+    .telaPorCima
+    {
+    background-color: var(--color-grey-6);
+    width: 352px;
+    height: 312px;
+    border-radius: 8px;
+    border: solid var(--color-grey-3);
+    padding: 0;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 270px 80px 80px 712px;
+    position: absolute;
+    }
+
+
+    .aparecerTelaPorCima
+    {
+    display: flex;
+    }
+
+    input::placeholder
+    {
+    text-align:center;
+    }
+
+    .send
+    {
+    width: 240px;
+    height: 45px;
+    background: var(--color-grey-2);
+    color: var(--color-grey-6);
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+    }
+
+    .send:hover
+    {
+    border: solid var(--color-grey-1);
+    cursor: pointer;   
+    }
+
+    .btnOut
+    {
+    margin: -15px -100px 0px 72px;
+    background-color: var(--color-grey-6);
+    }
+
+    .btnOut:hover
+    {
+    cursor: pointer;
+    }
